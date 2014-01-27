@@ -164,45 +164,6 @@
         <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
     </header>
 
-    <!-- PERSONAL -->
-    <header android:id="@+id/personal_section"
-        android:title="@string/header_category_personal" />
-
-    <!-- HALO -->
-    <header
-        android:id="@+id/halo_settings"
-        android:fragment="com.android.settings.paranoid.Halo"
-        android:icon="@drawable/ic_settings_halo"
-        android:title="@string/halo_settings_title" />
-
-    <!-- Location -->
-    <header
-        android:fragment="com.android.settings.location.LocationSettings"
-        android:icon="@drawable/ic_settings_location"
-        android:title="@string/location_settings_title"
-        android:id="@+id/location_settings" />
-
-    <!-- Security -->
-    <header
-        android:fragment="com.android.settings.SecuritySettings"
-        android:icon="@drawable/ic_settings_security"
-        android:title="@string/security_settings_title"
-        android:id="@+id/security_settings" />
-
-    <!-- Language -->
-    <header
-        android:id="@+id/language_settings"
-        android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings"
-        android:icon="@drawable/ic_settings_language"
-        android:title="@string/language_settings" />
-
-    <!-- Backup and reset -->
-    <header
-        android:fragment="com.android.settings.PrivacySettings"
-        android:icon="@drawable/ic_settings_backup"
-        android:title="@string/privacy_settings"
-        android:id="@+id/privacy_settings" />
-
     <!--  Accounts section -->
     <header
             android:id="@+id/account_settings"
@@ -251,6 +212,13 @@
         android:fragment="com.koushikdutta.superuser.PolicyNativeFragment"
         android:icon="@drawable/ic_action_permission"
         android:title="@string/superuser" />
+
+    <!-- HALO -->
+    <header
+        android:id="@+id/halo_settings"
+        android:fragment="com.android.settings.paranoid.Halo"
+        android:icon="@drawable/ic_settings_halo"
+        android:title="@string/halo_settings_title" />
 
     <!-- Development -->
     <header
